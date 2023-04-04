@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./dist/css/style.min.css">
 
-  <link rel="icon" type="image/png" sizes="32x32" href=".">
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/img/favicon-32x32.png">
 
   <title>Frontend Mentor | Notifications page</title>
 </head>
@@ -19,7 +19,7 @@
     <section class="notifications">
       <div class="wrapper">
         <div class="notifications__heading">
-          <h1 class="notifications__heading-title">Notifications <span>3</span></h1>
+          <h1 class="notifications__heading-title">Notifications <span></span></h1>
           <span class="notifications__heading-btn">Mark all as read</span>
         </div>
 
@@ -28,8 +28,9 @@
             <img src="./dist/img/avatar-mark-webber.webp" alt="" class="notifications__box-user-img">
             <div class="notifications__box-info">
               <p class="notifications__box-text"><span class="notifications__box-text-username">Mark Webber</span>
-                reacted
-                to your recent post <span>My first tournament today!</span></p>
+                reacted to your recent post <span>My first tournament today!</span>
+                <span class="notifications__box-text-new"></span>
+              </p>
               <p class="notifications__box-when">1m ago</p>
             </div>
           </div>
@@ -102,6 +103,7 @@
     </section>
   </main>
 
+  <script src="./dist/js/main.min.js"></script>
 </body>
 
 </html>
