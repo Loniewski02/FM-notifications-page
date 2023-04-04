@@ -16,6 +16,7 @@ body {
 	font-family: 'Plus Jakarta Sans', sans-serif;
 	font-size: 1.6rem;
 	background-color: $very-light-grayish-blue;
+	min-height: 100vh;
 }
 
 .notifications {
@@ -28,6 +29,7 @@ body {
 		padding: 1.5em 1em;
 		max-width: 730px;
 		background-color: $white;
+		border-radius: 10px;
 	}
 
 	&__heading {
