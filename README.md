@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/Loniewski02/FM-notifications-page)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/html-sass-js-notifications-page-RvzdZRWpXV)
 - Live Site URL: [Live](https://loniewski02.github.io/FM-notifications-page/)
 
 ## My process
